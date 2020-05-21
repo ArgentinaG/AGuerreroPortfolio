@@ -11,30 +11,44 @@
     <!-- Bootstrap CDN -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
+    <style>
+        #name,
+        #email {
+            color: white;
+    </style>
 </head>
 
 <body>
     <!-- Start Nav -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-info">
-        <span class="navbar-brand mb-1 h1">Argentina Guerrero</span>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse">
-            <ul class="nav navbar-nav navbar-right">
-                <li class="nav-item">
-                    <a class="nav-link" href=index.html>About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href=portfolio.html>Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href=contact.html>Contact</a>
-                </li>
-            </ul>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 bg-info">
+                <h1 id="name">Argentina Guerrero</h1>
+                <p id="email">Argentina621@ymail.com<br>
+                    (210)896-9500<br>
+                </p>
+                <hr>
+
+            </div>
         </div>
+    </div>
+
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-md bg-light">
+        <a class="navbar-brand"></a> <!-- Links for the Navbar-->
+
+        <ul class="navbar-nav" <li class="nav-item">
+            <a class="nav-link" href="index.html">About Me</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Contact.html">Contact</a>
+            </li>
+            <ul>
     </nav>
+
     <!-- End Nav -->
     <div class="container">
         <div class="row">
